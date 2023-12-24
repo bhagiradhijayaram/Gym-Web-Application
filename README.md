@@ -19,5 +19,7 @@ Footer: The footer includes essential contact details, quick navigation links, a
 Technologies Used:
 
 HTML5: Structuring the content and enhancing semantics.
+
 CSS3: Styling the elements and ensuring a visually appealing layout.
+
 JavaScript: Adding interactivity and dynamic behavior to the website
