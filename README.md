@@ -29,5 +29,7 @@ Installation
 To run the gym website locally as a single page application, follow these steps:
 
 Clone this repository: git clone https://github.com/your-username/Gym-Web-Application.git
+
 Navigate to the project directory: cd Gym-Web-Application
+
 Open the index.html file in your web browser.
