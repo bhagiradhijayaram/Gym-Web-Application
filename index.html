@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="PerfectFitness reponsive webite build using HTML5, CSS3 and Javascript The complete layout of the page is build using grid layout and flexbox with some cool animations."
+    />
+    <title>PerfectFitness - place for your fitness goals</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+    <link rel="stylesheet" href="fonts/stylesheet.css" media="screen" />
+    <link rel="stylesheet" href="css/style.css" media="screen" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  
+  </head>
+  <body>
+    <header class="header" id="home">
+      <div class="container">
+        <nav class="header-navigation" aria-label="navigation">
+          <div class="logo"><span class="yellow">Perfect</span>Fitness</div>
+          <div class="navbar-toggle" id="navbarToggle">
+          <img
+              src="img/nav-icon.svg"
+              alt="navigation icon"
+              class="nav-icon"
+              width="30"
+              height="30"
+            />
+            </div>
+          
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Course.html">Courses</a></li>
+            <li><a href="Trainers.html">Trainers</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        </nav>
+      </div>
+    </header>
+    
+    <main>
+      <!-- HERO SECTION -->
+      <section class="section-hero">
+        <div class="container hero-box">
+          <div class="hero-content margin-bottom">
+            <h1 class="heading heading--1 margin-bottom">
+              Transform Your Body, Transform Your Life. Commit to Fit at PerfectFitness.
+            </h1>
+            <p class="description">
+              We Offer Functional Training, Plyometric Boxes, Aerobics classes,
+              TRX And Much More
+            </p>
+          </div>
+          <div class="btn-group">
+            <button class="btn btn__primary margin-right margin-bottom">
+              GET INFO
+            </button>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION ABOUT -->
+      <section class="section-about" id="about">
+        <div class="about-box container">
+          <div class="about-box__content" data-aos="fade-up">
+            <h2 class="heading heading--2">
+              About <span class="yellow">Perfect</span>Fitness
+            </h2>
+            <p>
+              At [Your Gym's Name], we are not just a fitness center; we are a community dedicated to helping you achieve your health and wellness goals.
+               Whether you're a seasoned fitness enthusiast or just starting your fitness journey,
+               our state-of-the-art facility and passionate team are here to support you every step of the way.<br>
+
+              <spam style="color: hsl(56, 99%, 52%);"><b>OUR</b></spam>Mission:<br>
+              Empowering lives through fitness is at the core of our mission. We believe that a healthy lifestyle is the key to a happier and more fulfilling life.
+              [Your Gym's Name] is committed to providing a welcoming and inclusive environment where individuals of all fitness levels can thrive.
+
+
+            </p>
+            <a href="#" class="link-button">Read More &rarr;</a>
+          </div>
+          <figure class="about-box__image" data-aos="fade-up">
+            <img src="img/image1.jpg" alt="about-image-one" width="350" height="233"/>
+            <img src="img/image2.jpg" alt="about-image-twwo" width="350" height="233"/>
+            <img src="img/about-img-3.jpg" alt="about-image-three" width="420" height="280"/>
+          </figure>
+        </div>
+      </section>
+
+      <!-- SECTION COURSES -->
+      <section class="section-courses" id="courses">
+        <div class="container courses-box" data-aos="fade-up">
+          <header class="courses-heading">
+            <h2 class="heading heading--2 underline">Our Courses</h2>
+            <p>
+              Unlock your potential with our specialized gym course, designed to ignite progress and redefine your fitness goals.
+              Join us in sculpting a stronger, healthier you!
+            </p>
+          </header>
+
+          <article class="courses-content">
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/gallery/gallery-4.jpg"
+                alt="body building course"
+                width="550"
+                height="550"
+              />
+
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    your ultimate companion for bodybuilding success. 
+                    From personalized workout plans to real-time progress tracking, sculpt your physique with precision and power.
+                  </p>
+
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+
+              <div class="class-card__title">Body Building</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-crossfit.jpg"
+                alt="cross fit course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    where intensity meets innovation. Experience dynamic workouts, s
+                    community support, and performance analytics, all in one app designed for the ultimate CrossFit enthusiast.
+                  </p>
+
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">Cross Fit</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/gallery/gallery-5.jpg"
+                alt="gymnastic course"
+                width="550"
+                height="550"
+              />
+
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    your key to precision training and strength progression. Elevate every lift,
+                    track your reps, and sculpt a powerhouse physique with our intuitive and robust weightlifting companion.
+                  </p>
+
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+
+              <div class="class-card__title">weigthLifting</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-fitness.jpg"
+                alt="fitness course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    seamlessly track lifts, set new PRs, and sculpt your ideal physique with precision and ease. 
+                    Unlock the power of weightlifting,
+                    personalized for your journey to peak performance.
+                  </p>
+
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">Fitness</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/gallery/gallery-3.jpg"
+                alt="fitness course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    explore dynamic suspension workouts, track progress, and redefine your strength training experience.
+                    Elevate your fitness journey with precision and innovation.
+                  </p>
+
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">Treadmill</div>
+            </div>
+
+            <div class="class-card">
+              <img
+                class="class-card__img"
+                src="./img/courses-boxing.jpg"
+                alt="fitness course"
+                width="550"
+                height="550"
+              />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>
+                    unleash your potential, track punches, and sculpt a knockout physique with precision training.
+                     Experience the sweet science of boxing elevated to new heights.
+                  </p>
+
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">Boxing</div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SECTION OFFER -->
+      <section class="section-offer" id="offer">
+        <div class="offer-box">
+          <div class="offer" data-aos="fade-up">
+            <h2 class="heading heading--2 margin-bottom">
+              Special offer this summer get full Benefits for year with 20%
+              discount.
+            </h2>
+            <p class="margin-bottom">
+              Achieve your fitness goals without compromising your budget. Take advantage of our special promotion -  
+              sign up now and enjoy a generous discount on gym prices.
+            </p>
+            <button class="btn btn__primary">Join Us</button>
+          </div>
+        <div class="offer-img"></div>
+        </div>
+      </section>
+
+      <!-- SECTION COACHES -->
+      <section class="section-coaches" id="trainers">
+        <div class="container coaches-box" data-aos="fade-up">
+          <header class="coache-heading">
+            <h2 class="heading heading--2 underline margin-bottom">
+              OUR FITNESS COACHES
+            </h2>
+            <p>
+              Meet our dedicated fitness coaches, committed to sculpting your success and guiding you towards a healthier,
+              stronger version of yourself.
+            </p>
+          </header>
+
+          <article class="coache-content">
+            <!-- Coach 1 -->
+            <div class="c-card">
+                <img src="img/team/team-2.jpg" alt="Mark Bertul" class="c-card__img" width="550" height="550" />
+                <div class="overlay">
+                    <img src="./img/logo-whatsapp.svg" alt="WhatsApp" width="30" height="30" />
+                    <img src="./img/logo-facebook.svg" alt="Facebook" width="30" height="30" />
+                    <img src="./img/logo-instagram.svg" alt="Instagram" width="30" height="30" />
+                    <img src="./img/logo-twitter.svg" alt="Twitter" width="30" height="30" />
+                </div>
+                <div class="c-card__content">
+                    <p class="c-name">MARK BERTUL</p>
+                    <p class="c-title">Body Building</p>
+                </div>
+            </div>
+
+            <!-- Coach 2 -->
+            <div class="c-card">
+                <img src="img/team/team-5.jpg" alt="Serio Mike" class="c-card__img" width="550" height="550" />
+                <div class="overlay">
+                    <img src="./img/logo-whatsapp.svg" alt="WhatsApp" width="30" height="30" />
+                    <img src="./img/logo-facebook.svg" alt="Facebook" width="30" height="30" />
+                    <img src="./img/logo-instagram.svg" alt="Instagram" width="30" height="30" />
+                    <img src="./img/logo-twitter.svg" alt="Twitter" width="30" height="30" />
+                </div>
+                <div class="c-card__content">
+                    <p class="c-name">SERIO MIKE</p>
+                    <p class="c-title">Cardio Expert</p>
+                </div>
+            </div>
+
+            <!-- Coach 3 -->
+            <div class="c-card">
+                <img src="img/team/team-3.jpg" alt="Sven Mieke" class="c-card__img" width="550" height="550" />
+                <div class="overlay">
+                    <img src="./img/logo-whatsapp.svg" alt="WhatsApp" width="30" height="30" />
+                    <img src="./img/logo-facebook.svg" alt="Facebook" width="30" height="30" />
+                    <img src="./img/logo-instagram.svg" alt="Instagram" width="30" height="30" />
+                    <img src="./img/logo-twitter.svg" alt="Twitter" width="30" height="30" />
+                </div>
+                <div class="c-card__content">
+                    <p class="c-name">SVEN MIEKE</p>
+                    <p class="c-title">Fitness Coach</p>
+                </div>
+            </div>
+        </article>
+        </div>
+      </section>
+
+      <!-- SECTION REVIEW -->
+      <section class="section-review" id="review">
+        <div class="review-box container" data-aos="fade-up">
+          <h2 class="heading heading--2 underline margin-bottom grid-center">
+            OUR CILENT SAY
+          </h2>
+
+          <div class="review-card">
+            <img
+              src="img/images/img2.jpg"
+              alt="user"
+              class="review-card__image"
+              width="100"
+              height="100"
+            />
+            <blockquote class="review-card__content">
+              <p class="text">
+                I appreciate the gym's facilities, but there's room for improvement in equipment maintenance and cleanliness,
+                 which would enhance the overall experience for members.
+                </p>
+
+              <div class="name">Cesar Rincon</div>
+            </blockquote>
+          </div>
+
+          <div class="review-card">
+            <img
+              src="img/review-img-2.jpg"
+              alt="user"
+              class="review-card__image"
+              width="100"
+              height="100"
+            />
+            <blockquote class="review-card__content">
+              <p class="text">
+                I value the gym's atmosphere, yet it would be beneficial to have more diverse class offerings and better
+                 communication regarding schedule changes for improved member engagement.
+              </p>
+              <div class="name">Mathilde Langevin</div>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION CONTACT -->
+      <section class="section-contact" id="contact">
+        <div class="contact-box">
+          <form class="form-grp" data-aos="fade-up">
+            <h2 class="heading heading--2 margin-bottom">
+              Get in <span class="yellow">Touch</span>
+            </h2>
+
+            <input type="text" class="form form__input" placeholder="Name" />
+            <input type="text" class="form form__input" placeholder="Email" />
+            <input type="text" class="form form__input" placeholder="Phone" />
+            <textarea
+              name="message"
+              cols="5"
+              rows="3"
+              class="form form__input"
+              placeholder="Message"
+            ></textarea>
+            <button class="btn btn__primary form-flex">Send &nbsp;</button>
+          </form>
+            <!-- Create an iframe with the OpenStreetMap URL -->
+            <div class="map-container">
+
+            <iframe id="map" width="700" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+            src="https://www.openstreetmap.org/export/embed.html?bbox=76.3570%2C13.6594%2C84.7993%2C19.3289&layer=mapnik">
+            </iframe>
+            </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer class="section-footer" id="footer">
+      <div class="footer-box container">
+          <div class="contact-details">
+              <h2 class="margin-bottom"><span class="yellow">Perfect</span>Fitness</h2>
+              <ul class="contact-data">
+                  <li class="location">100 Madhura Nagar, Vijayawada</li>
+                  <li class="phone">+00 000 000 00</li>
+                  <li class="email">PerfectFitness@domine.com</li>
+                  <li class="social">
+                      <img src="./img/logo-whatsapp.svg" alt="WhatsApp" width="35" height="35" />
+                      <img src="./img/logo-facebook.svg" alt="Facebook" width="35" height="35" />
+                      <img src="./img/logo-instagram.svg" alt="Instagram" width="35" height="35" />
+                      <img src="./img/logo-twitter.svg" alt="Twitter" width="35" height="35" />
+                  </li>
+              </ul>
+          </div>
+
+          <nav class="footer-nav" aria-label="navigation">
+              <div class="nav-name">Quick Links</div>
+              <ul>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#courses">Courses</a></li>
+                  <li><a href="#trainers">Trainers</a></li>
+                  <li><a href="#contact">Contact</a></li>
+              </ul>
+          </nav>
+
+          <div class="newsletter">
+              <div class="newsletter__title">Newsletter</div>
+              <div class="newsletter__text">
+                  Be the first to know! Subscribe to our newsletter for the latest updates, exclusive offers, and exciting news.
+              </div>
+              <form class="newsletter__input">
+                  <input type="text" class="form" placeholder="example@domine.com" />
+                  <img src="./img/send.svg" alt="Send" class="send-icon" width="36" height="36" />
+              </form>
+              <div class="time">
+                  <div class="contact-details">
+                      <h2 class="margin-bottom"><span class="yellow">PerfectFitness</span> Timings</h2>
+                      <ul class="contact-data">
+                          <li>Monday - Friday -- 7:00AM - 10:00PM</li>
+                          <li>Saturday - Sunday -- 7:00AM - 2:00PM</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+  <script src="js/script.js"></script>
+  <script src="js/index.js"></script>
+  </body>
+</html>

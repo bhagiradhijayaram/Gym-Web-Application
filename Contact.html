@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="PerfectFitness reponsive webite build using HTML5, CSS3 and Javascript The complete layout of the page is build using grid layout and flexbox with some cool animations."
+    />
+    <title>PerfectFitness - place for your fitness goals</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+    <link rel="stylesheet" href="fonts/stylesheet.css" media="screen" />
+    <link rel="stylesheet" href="css/style.css" media="screen" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+</head> 
+
+<body>
+  
+ <!-- HEADER -->
+  <header class="header" id="home">
+  <div class="container">
+    <nav class="header-navigation" aria-label="navigation">
+      <div class="logo"><span class="yellow">Perfect</span>Fitness</div>
+      <div class="navbar-toggle" id="navbarToggle">
+      <img
+          src="img/nav-icon.svg"
+          alt="navigation icon"
+          class="nav-icon"
+          width="30"
+          height="30"
+        />
+        </div>
+      
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="Course.html">Courses</a></li>
+        <li><a href="Trainers.html">Trainers</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+    </ul>
+    </nav>
+  </div>
+</header>
+  <!-- HERO SECTION -->
+  <section class="section-hero1">
+    <div class="container hero-box">
+        <div class="hero-content margin-bottom">
+            <h1 class="heading heading--1 margin-bottom">Train Like a Beast, Look Like a Beauty</h1>
+            <p class="description">We Offer Functional Training, Plyometric Boxes, Aerobics classes, TRX And Much More</p>
+        </div>
+    </div>
+  </section>
+<main>
+  <section class="section-contact" id="contact">
+    <div class="contact-box">
+      <form class="form-grp" data-aos="fade-up">
+        <h2 class="heading heading--2 margin-bottom">
+          Get in <span class="yellow">Touch</span>
+        </h2>
+
+        <input type="text" class="form form__input" placeholder="Name" />
+        <input type="text" class="form form__input" placeholder="Email" />
+        <input type="text" class="form form__input" placeholder="Phone" />
+        <textarea
+          name="message"
+          cols="5"
+          rows="3"
+          class="form form__input"
+          placeholder="Message"
+        ></textarea>
+        <button class="btn btn__primary form-flex">Send &nbsp;</button>
+      </form>
+      <div class="map-container">
+
+      <!-- Create an iframe with the OpenStreetMap URL -->
+      <iframe id="map" width="700" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+      src="https://www.openstreetmap.org/export/embed.html?bbox=76.3570%2C13.6594%2C84.7993%2C19.3289&layer=mapnik">
+      </iframe>
+      </div>
+    </div>
+  </section>
+</main>
+  <!-- FOOTER SECTION -->
+  <footer class="section-footer" id="footer">
+    <div class="footer-box container">
+        <div class="contact-details">
+            <h2 class="margin-bottom"><span class="yellow">Perfect</span>Fitness</h2>
+            <ul class="contact-data">
+                <li class="location">100 Madhura Nagar, Vijayawada</li>
+                <li class="phone">+00 000 000 00</li>
+                <li class="email">PerfectFitness@domine.com</li>
+                <li class="social">
+                    <img src="./img/logo-whatsapp.svg" alt="WhatsApp" width="35" height="35" />
+                    <img src="./img/logo-facebook.svg" alt="Facebook" width="35" height="35" />
+                    <img src="./img/logo-instagram.svg" alt="Instagram" width="35" height="35" />
+                    <img src="./img/logo-twitter.svg" alt="Twitter" width="35" height="35" />
+                </li>
+            </ul>
+        </div>
+
+        <nav class="footer-nav" aria-label="navigation">
+            <div class="nav-name">Quick Links</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#trainers">Trainers</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="newsletter">
+            <div class="newsletter__title">Newsletter</div>
+            <div class="newsletter__text">
+                Be the first to know! Subscribe to our newsletter for the latest updates, exclusive offers, and exciting news.
+            </div>
+            <form class="newsletter__input">
+                <input type="text" class="form" placeholder="example@domine.com" />
+                <img src="./img/send.svg" alt="Send" class="send-icon" width="36" height="36" />
+            </form>
+            <div class="time">
+                <div class="contact-details">
+                    <h2 class="margin-bottom"><span class="yellow">PerfectFitness</span> Timings</h2>
+                    <ul class="contact-data">
+                        <li>Monday - Friday -- 7:00AM - 10:00PM</li>
+                        <li>Saturday - Sunday -- 7:00AM - 2:00PM</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/index.js"></script>
+</body>
+</html>
+

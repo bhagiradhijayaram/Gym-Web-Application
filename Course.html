@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="PerfectFitness reponsive webite build using HTML5, CSS3 and Javascript The complete layout of the page is build using grid layout and flexbox with some cool animations."
+    />
+    <title>PerfectFitness - place for your fitness goals</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+    <link rel="stylesheet" href="fonts/stylesheet.css" media="screen" />
+    <link rel="stylesheet" href="css/style.css" media="screen" />
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+
+    <!-- CSS -->
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Boxicons CSS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+</head> 
+<body>
+  <header class="header" id="home">
+    <div class="container">
+      <nav class="header-navigation" aria-label="navigation">
+        <div class="logo"><span class="yellow">Perfect</span>Fitness</div>
+        <div class="navbar-toggle" id="navbarToggle">
+        <img
+            src="img/nav-icon.svg"
+            alt="navigation icon"
+            class="nav-icon"
+            width="30"
+            height="30"
+          />
+          </div>
+        
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="Course.html">Courses</a></li>
+          <li><a href="Trainers.html">Trainers</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+      </ul>
+      </nav>
+    </div>
+  </header>
+  
+  
+  <section class="section-hero1">
+    <div class="container hero-box">
+      <div class="hero-content margin-bottom">
+        <h1 class="heading heading--1 margin-bottom">
+          Explore a diverse range of courses
+        </h1>
+        <p class="description">
+          Expert coaching, cutting-edge equipment, and a positive atmosphere, 
+          we strive to be the catalyst for your fitness evolution.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- SECTION COURSES -->
+  <section class="section-courses" id="courses">
+    <div class="container courses-box" data-aos="fade-up">
+      <header class="courses-heading">
+        <h2 class="heading heading--2 underline">Our Courses</h2>
+        <p>
+          Unlock your potential with our specialized gym course, designed to ignite progress and redefine your fitness goals.
+          Join us in sculpting a stronger, healthier you!
+        </p>
+      </header>
+
+      <article class="courses-content">
+        <div class="class-card">
+          <img
+            class="class-card__img"
+            src="./img/gallery/gallery-4.jpg"
+            alt="body building course"
+            width="550"
+            height="550"
+          />
+
+          <div class="class-card__overlay">
+            <div class="text">
+              <p>
+                your ultimate companion for bodybuilding success. 
+                From personalized workout plans to real-time progress tracking, sculpt your physique with precision and power.
+              </p>
+
+              <a href="#" class="link-button">Read More &rarr;</a>
+            </div>
+          </div>
+
+          <div class="class-card__title">Body Building</div>
+        </div>
+
+        <div class="class-card">
+          <img
+            class="class-card__img"
+            src="./img/courses-crossfit.jpg"
+            alt="cross fit course"
+            width="550"
+            height="550"
+          />
+          <div class="class-card__overlay">
+            <div class="text">
+              <p>
+                where intensity meets innovation. Experience dynamic workouts, 
+                community support, and performance analytics, all in one app designed for the ultimate CrossFit enthusiast.
+              </p>
+
+              <a href="#" class="link-button">Read More &rarr;</a>
+            </div>
+          </div>
+          <div class="class-card__title">Cross Fit</div>
+        </div>
+
+        <div class="class-card">
+          <img
+            class="class-card__img"
+            src="./img/gallery/gallery-5.jpg"
+            alt="gymnastic course"
+            width="550"
+            height="550"
+          />
+
+          <div class="class-card__overlay">
+            <div class="text">
+              <p>
+                your key to precision training and strength progression. Elevate every lift,
+                track your reps, and sculpt a powerhouse physique with our intuitive and robust weightlifting companion.
+              </p>
+
+              <a href="#" class="link-button">Read More &rarr;</a>
+            </div>
+          </div>
+
+          <div class="class-card__title">weigthLifting</div>
+        </div>
+
+        <div class="class-card">
+          <img
+            class="class-card__img"
+            src="./img/courses-fitness.jpg"
+            alt="fitness course"
+            width="550"
+            height="550"
+          />
+          <div class="class-card__overlay">
+            <div class="text">
+              <p>
+                seamlessly track lifts, set new PRs, and sculpt your ideal physique with precision and ease. 
+                Unlock the power of weightlifting,
+                personalized for your journey to peak performance.
+              </p>
+
+              <a href="#" class="link-button">Read More &rarr;</a>
+            </div>
+          </div>
+          <div class="class-card__title">Fitness</div>
+        </div>
+
+        <div class="class-card">
+          <img
+            class="class-card__img"
+            src="./img/gallery/gallery-3.jpg"
+            alt="fitness course"
+            width="550"
+            height="550"
+          />
+          <div class="class-card__overlay">
+            <div class="text">
+              <p>
+                explore dynamic suspension workouts, track progress, and redefine your strength training experience.
+                Elevate your fitness journey with precision and innovation.
+              </p>
+
+              <a href="#" class="link-button">Read More &rarr;</a>
+            </div>
+          </div>
+          <div class="class-card__title">Treadmill</div>
+        </div>
+
+        <div class="class-card">
+          <img
+            class="class-card__img"
+            src="./img/courses-boxing.jpg"
+            alt="fitness course"
+            width="550"
+            height="550"
+          />
+          <div class="class-card__overlay">
+            <div class="text">
+              <p>
+                unleash your potential, track punches, and sculpt a knockout physique with precision training.
+                 Experience the sweet science of boxing elevated to new heights.
+              </p>
+
+              <a href="#" class="link-button">Read More &rarr;</a>
+            </div>
+          </div>
+          <div class="class-card__title">Boxing</div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Pricing Section Begin -->
+  <section class="section-courses" id="courses">
+    <div class="container courses-box" data-aos="fade-up">
+    <header class="courses-heading">
+      <h2 class="heading heading--2 underline">CHOOSE YOUR PRICING PLAN</h2>
+    </header>
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-8">
+                <div class="ps-item">
+                    <h3>Class drop-in</h3>
+                    <div class="pi-price">
+                        <h2>$ 39.0</h2>
+                        <span>SINGLE CLASS</span>
+                    </div>
+                    <ul>
+                        <li>Free riding</li>
+                        <li>Unlimited equipments</li>
+                        <li>Personal trainer</li>
+                        <li>Weight losing classes</li>
+                        <li>Month to mouth</li>
+                        <li>No time restriction</li>
+                    </ul>
+                    <a href="#" class="primary-btn pricing-btn">Enroll now</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-8">
+                <div class="ps-item">
+                    <h3>12 Month unlimited</h3>
+                    <div class="pi-price">
+                        <h2>$ 99.0</h2>
+                        <span>SINGLE CLASS</span>
+                    </div>
+                    <ul>
+                        <li>Free riding</li>
+                        <li>Unlimited equipments</li>
+                        <li>Personal trainer</li>
+                        <li>Weight losing classes</li>
+                        <li>Month to mouth</li>
+                        <li>No time restriction</li>
+                    </ul>
+                    <a href="#" class="primary-btn pricing-btn">Enroll now</a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-8">
+                <div class="ps-item">
+                    <h3>6 Month unlimited</h3>
+                    <div class="pi-price">
+                        <h2>$ 59.0</h2>
+                        <span>SINGLE CLASS</span>
+                    </div>
+                    <ul>
+                        <li>Free riding</li>
+                        <li>Unlimited equipments</li>
+                        <li>Personal trainer</li>
+                        <li>Weight losing classes</li>
+                        <li>Month to mouth</li>
+                        <li>No time restriction</li>
+                    </ul>
+                    <a href="#" class="primary-btn pricing-btn">Enroll now</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Pricing Section End -->
+
+    <!-- HERO SECTION -->
+    <section class="section-hero11">
+      <div class="container hero-box">
+        <div class="hero-content margin-bottom">
+          <h1 class="heading heading--1 margin-bottom">
+            Transform Your Body, Transform Your Life. Commit to Fit at [gymmachine].
+          </h1>
+          <p class="description">
+            We Offer Functional Training, Plyometric Boxes, Aerobics classes,
+            TRX And Much More
+          </p>
+        </div>
+        <button class="btn btn__secondary">Our services</button>
+  
+        </div>
+      </div>
+    </section>
+
+
+  <!-- FOOTER SECTION -->
+  <footer class="section-footer" id="footer">
+    <div class="footer-box container">
+        <div class="contact-details">
+            <h2 class="margin-bottom"><span class="yellow">Perfect</span>Fitness</h2>
+            <ul class="contact-data">
+                <li class="location">100 Madhura Nagar, Vijayawada</li>
+                <li class="phone">+00 000 000 00</li>
+                <li class="email">PerfectFitness@domine.com</li>
+                <li class="social">
+                    <img src="./img/logo-whatsapp.svg" alt="WhatsApp" width="35" height="35" />
+                    <img src="./img/logo-facebook.svg" alt="Facebook" width="35" height="35" />
+                    <img src="./img/logo-instagram.svg" alt="Instagram" width="35" height="35" />
+                    <img src="./img/logo-twitter.svg" alt="Twitter" width="35" height="35" />
+                </li>
+            </ul>
+        </div>
+
+        <nav class="footer-nav" aria-label="navigation">
+            <div class="nav-name">Quick Links</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#trainers">Trainers</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="newsletter">
+            <div class="newsletter__title">Newsletter</div>
+            <div class="newsletter__text">
+                Be the first to know! Subscribe to our newsletter for the latest updates, exclusive offers, and exciting news.
+            </div>
+            <form class="newsletter__input">
+                <input type="text" class="form" placeholder="example@domine.com" />
+                <img src="./img/send.svg" alt="Send" class="send-icon" width="36" height="36" />
+            </form>
+            <div class="time">
+                <div class="contact-details">
+                    <h2 class="margin-bottom"><span class="yellow">PerfectFitness</span> Timings</h2>
+                    <ul class="contact-data">
+                        <li>Monday - Friday -- 7:00AM - 10:00PM</li>
+                        <li>Saturday - Sunday -- 7:00AM - 2:00PM</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/index.js"></script>
+</body>
+</html>
+
