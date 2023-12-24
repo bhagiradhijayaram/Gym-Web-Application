@@ -32,6 +32,9 @@ Clone this repository: git clone https://github.com/bhagiradhijayaram/Gym-Web-Ap
 
 Navigate to the project directory: cd Gym-Web-Application
 
+![Screenshot (159)](https://github.com/bhagiradhijayaram/Gym-Web-Application/assets/116064700/9f728b8d-9411-4192-ac0c-b6b519ef4f8b)
+
+
 Open the index.html file in your web browser.
 
 
